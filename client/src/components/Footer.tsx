@@ -84,35 +84,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Social */}
-          <div>
-            <h4 className="font-playfair font-bold text-[#f5f0e8] mb-4">
-              Síguenos
-            </h4>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="text-[#d4a96a] hover:text-[#c8622a] transition-colors text-2xl"
-                title="Instagram"
-              >
-                📷
-              </a>
-              <a
-                href="#"
-                className="text-[#d4a96a] hover:text-[#c8622a] transition-colors text-2xl"
-                title="Facebook"
-              >
-                👍
-              </a>
-              <a
-                href="#"
-                className="text-[#d4a96a] hover:text-[#c8622a] transition-colors text-2xl"
-                title="Google Maps"
-              >
-                📍
-              </a>
-            </div>
-          </div>
+
         </div>
 
         {/* Divider */}

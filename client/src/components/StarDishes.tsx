@@ -1,9 +1,9 @@
 export default function StarDishes() {
   const dishes = [
     {
-      name: 'Solomillo de vaca premium al carbón',
-      description: 'Trinchado en mesa, en su punto exacto',
-      image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663414730862/goxDgi5J3viYChHrMd6rhu/hero-carne-josper-bwTLe4PgGgvZqtR3MznewW.webp',
+      name: 'Chuletón de Ternera',
+      description: 'Corte premium a la perfección, jugoso y tierno',
+      image: '/manus-storage/pasted_file_H5YfVl_image_6e8d648f.png',
     },
     {
       name: 'Picaña de Angus',

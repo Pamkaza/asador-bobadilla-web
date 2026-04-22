@@ -15,7 +15,7 @@ export default function Location() {
           {/* Map */}
           <div className="rounded-sm overflow-hidden shadow-2xl h-96 md:h-full min-h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.5234567890123!2d-3.6234567!3d37.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sAsador%20Bobadilla%20Og%C3%ADjares!5e0!3m2!1ses!2ses!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35991.10562913996!2d-3.614567150316597!3d37.124290839647756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fbcac8b99355%3A0xea91cadf312f49ae!2sAsador%20Bobadilla!5e0!3m2!1ses!2ses!4v1776854634916!5m2!1ses!2ses"
               width="100%"
               height="100%"
               style={{ border: 0 }}

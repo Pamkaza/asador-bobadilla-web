@@ -25,21 +25,21 @@ export default function About() {
             {/* Values */}
             <div className="space-y-4">
               <div className="flex items-start gap-4">
-                <span className="text-3xl">🔥</span>
+                <span className="text-3xl text-[#c8622a]">•</span>
                 <div>
                   <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg">Cocina Casera</h3>
                   <p className="text-[#b8b8b8]">Recetas tradicionales preparadas con dedicación</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-3xl">🥩</span>
+                <span className="text-3xl text-[#c8622a]">•</span>
                 <div>
                   <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg">Carne Premium</h3>
                   <p className="text-[#b8b8b8]">Selección rigurosa de proveedores de confianza</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-3xl">❤️</span>
+                <span className="text-3xl text-[#c8622a]">•</span>
                 <div>
                   <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg">Trato Familiar</h3>
                   <p className="text-[#b8b8b8]">Ambiente acogedor como estar en casa</p>

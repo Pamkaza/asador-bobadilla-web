@@ -17,7 +17,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="text-2xl font-bold font-playfair text-[#c8622a]">🔥</div>
+          <div className="text-2xl font-bold font-playfair text-[#c8622a]">•</div>
           <h1 className="text-xl font-bold font-playfair text-[#f5f0e8]">Asador Bobadilla</h1>
         </div>
 

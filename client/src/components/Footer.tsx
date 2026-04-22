@@ -72,11 +72,11 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="tel:+34640386139" className="text-[#d4a96a] hover:text-[#c8622a] transition-colors">
-                  📞 +34 640 38 61 39
+                  • +34 640 38 61 39
                 </a>
               </li>
               <li className="text-[#d4a96a]">
-                📍 C. Río Beiro, 3
+                • C. Río Beiro, 3
               </li>
               <li className="text-[#d4a96a]">
                 18151 Ogíjares, Granada
@@ -107,7 +107,7 @@ export default function Footer() {
         className="fixed bottom-6 right-6 md:hidden bg-[#25d366] hover:bg-[#1fa855] text-white p-4 rounded-full shadow-lg transition-all z-40"
         title="WhatsApp"
       >
-        <span className="text-2xl">💬</span>
+        <span className="text-2xl">W</span>
       </a>
     </footer>
   );

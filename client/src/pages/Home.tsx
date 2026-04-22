@@ -1,25 +1,27 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import MenuSection from '@/components/Menu';
+import StarDishes from '@/components/StarDishes';
+import Testimonials from '@/components/Testimonials';
+import Gallery from '@/components/Gallery';
+import Reservations from '@/components/Reservations';
+import Location from '@/components/Location';
+import Footer from '@/components/Footer';
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
- */
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
-
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
+    <div className="min-h-screen bg-[#1a1a1a] text-[#f5f0e8]">
+      <Header />
+      <Hero />
+      <About />
+      <MenuSection />
+      <StarDishes />
+      <Testimonials />
+      <Gallery />
+      <Reservations />
+      <Location />
+      <Footer />
     </div>
   );
 }

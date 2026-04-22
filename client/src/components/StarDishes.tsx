@@ -3,7 +3,7 @@ export default function StarDishes() {
     {
       name: 'Chuletón de Ternera',
       description: 'Corte premium a la perfección, jugoso y tierno',
-      image: 'https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80' ,
+      image: "unnamed.jpg" ,
     },
     {
       name: 'Picaña de Angus',

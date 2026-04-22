@@ -18,7 +18,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="text-2xl font-bold font-playfair text-[#c8622a]">•</div>
-          <h1 className="text-xl font-bold font-playfair text-[#f5f0e8]">Asador Bobadilla</h1>
+          <h1 className="text-xl font-bold font-playfair text-[#f5f0e8]">Asador la Bobadilla</h1>
         </div>
 
         {/* Desktop Navigation */}

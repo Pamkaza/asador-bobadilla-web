@@ -13,9 +13,9 @@ export default function Footer() {
           {/* Logo */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="text-3xl">🔥</div>
+              <div className="text-3xl text-[#c8622a]">•</div>
               <h3 className="text-xl font-bold font-playfair text-[#c8622a]">
-                Asador Bobadilla
+                Asador la Bobadilla
               </h3>
             </div>
             <p className="text-[#b8b8b8] text-sm">

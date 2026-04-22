@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock } from 'lucide-react';
 
 export default function Location() {
   return (
@@ -62,41 +62,23 @@ export default function Location() {
                 </div>
               </div>
             </div>
-
-            {/* Email */}
-            <div className="card-dark p-6 hover:border-[#c8622a] transition-all">
-              <div className="flex items-start gap-4">
-                <Mail className="text-[#c8622a] mt-1 flex-shrink-0" size={28} />
-                <div>
-                  <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg mb-2">
-                    Email
-                  </h3>
-                  <a href="tel:+34640386139" className="text-[#d4a96a] font-semibold hover:text-[#c8622a] transition-colors">
-                    Llamar para consultas
-                  </a>
-                  <p className="text-[#b8b8b8] text-sm mt-1">
-                    Responderemos en breve
-                  </p>
-                </div>
-              </div>
-            </div>
-
             {/* Hours */}
             <div className="card-dark p-6 hover:border-[#c8622a] transition-all">
               <div className="flex items-start gap-4">
                 <Clock className="text-[#c8622a] mt-1 flex-shrink-0" size={28} />
-                <div>
-                  <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg mb-3">
-                    Horario
+                <div className="flex-1">
+                  <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg mb-4">
+                    Horario de Apertura
                   </h3>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex justify-between">
-                      <span className="text-[#b8b8b8]">Mi-Do</span>
-                      <span className="text-[#d4a96a]">12:30-17:30 | 20:00-24:00</span>
+                  <div className="space-y-3">
+                    <div className="bg-[#1a1a1a] rounded-sm p-3">
+                      <p className="text-[#d4a96a] font-semibold text-sm mb-1">Miércoles a Domingo</p>
+                      <p className="text-[#f5f0e8] font-bold text-base">12:30 - 17:30</p>
+                      <p className="text-[#f5f0e8] font-bold text-base">20:00 - 24:00</p>
                     </div>
-                    <div className="flex justify-between">
-                      <span className="text-[#b8b8b8]">L-Ma</span>
-                      <span className="text-[#c8622a]">Cerrado</span>
+                    <div className="bg-[#1a1a1a] rounded-sm p-3">
+                      <p className="text-[#c8622a] font-semibold text-sm mb-1">Lunes y Martes</p>
+                      <p className="text-[#c8622a] font-bold text-base">CERRADO</p>
                     </div>
                   </div>
                 </div>

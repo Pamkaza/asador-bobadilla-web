@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 export default function Reservations() {
   useEffect(() => {
-    // Cargar script de TidyCal si es necesario
+    // Cargar script de TidyCal
     const script = document.createElement('script');
     script.src = 'https://asset-tidycal.b-cdn.net/js/embed.js';
     script.async = true;
@@ -21,23 +21,11 @@ export default function Reservations() {
         </p>
 
         <div className="max-w-4xl mx-auto">
-          {/* TidyCal Embed - Placeholder */}
+          {/* TidyCal Embed */}
           <div className="card-dark p-8 mb-8">
-            <div className="bg-[#1a1a1a] rounded-sm p-8 text-center mb-6">
-              <p className="text-[#d4a96a] mb-4">
-                Widget de reservas de TidyCal
-              </p>
-              <p className="text-[#b8b8b8] text-sm">
-                Reemplaza <code className="bg-[#3a3a3a] px-2 py-1 rounded">YOUR_TIDYCAL_USERNAME</code> con tu usuario real en el código
-              </p>
-              <div className="mt-4 p-4 bg-[#3a3a3a] rounded-sm text-left overflow-x-auto">
-                <code className="text-[#d4a96a] text-xs">
-                  &lt;div class="tidycal-embed" data-path="YOUR_TIDYCAL_USERNAME/reserva-mesa"&gt;&lt;/div&gt;
-                </code>
-              </div>
-            </div>
+            <div className="tidycal-embed" data-path="marcopj2011/consultation" />
 
-            {/* Alternative Contact Info */}
+            {/* Contact Info */}
             <div className="border-t border-[#3a3a3a] pt-8">
               <h3 className="font-playfair font-bold text-[#f5f0e8] text-xl mb-6">
                 ¿Prefieres llamar?

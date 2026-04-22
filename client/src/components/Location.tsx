@@ -36,10 +36,10 @@ export default function Location() {
                     Dirección
                   </h3>
                   <p className="text-[#d4a96a] text-lg font-semibold">
-                    Ogíjares, Granada
+                    C. Río Beiro, 3
                   </p>
-                  <p className="text-[#b8b8b8] text-sm mt-1">
-                    [Dirección exacta a completar]
+                  <p className="text-[#d4a96a] text-lg font-semibold">
+                    18151 Ogíjares, Granada
                   </p>
                 </div>
               </div>
@@ -53,8 +53,8 @@ export default function Location() {
                   <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg mb-2">
                     Teléfono
                   </h3>
-                  <a href="tel:+34XXXXXXXXX" className="text-[#d4a96a] text-lg font-semibold hover:text-[#c8622a] transition-colors">
-                    +34 XXX XXX XXX
+                  <a href="tel:+34640386139" className="text-[#d4a96a] text-lg font-semibold hover:text-[#c8622a] transition-colors">
+                    +34 640 38 61 39
                   </a>
                   <p className="text-[#b8b8b8] text-sm mt-1">
                     Llamadas de lunes a domingo
@@ -71,8 +71,8 @@ export default function Location() {
                   <h3 className="font-playfair font-bold text-[#f5f0e8] text-lg mb-2">
                     Email
                   </h3>
-                  <a href="mailto:info@asadorbobadilla.com" className="text-[#d4a96a] font-semibold hover:text-[#c8622a] transition-colors">
-                    info@asadorbobadilla.com
+                  <a href="tel:+34640386139" className="text-[#d4a96a] font-semibold hover:text-[#c8622a] transition-colors">
+                    Llamar para consultas
                   </a>
                   <p className="text-[#b8b8b8] text-sm mt-1">
                     Responderemos en breve
@@ -91,12 +91,12 @@ export default function Location() {
                   </h3>
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-[#b8b8b8]">L-V</span>
-                      <span className="text-[#d4a96a]">13:00-16:00 | 20:00-23:00</span>
+                      <span className="text-[#b8b8b8]">Mi-Do</span>
+                      <span className="text-[#d4a96a]">12:30-17:30 | 20:00-24:00</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-[#b8b8b8]">S-D</span>
-                      <span className="text-[#d4a96a]">13:00-16:30 | 20:00-23:30</span>
+                      <span className="text-[#b8b8b8]">L-Ma</span>
+                      <span className="text-[#c8622a]">Cerrado</span>
                     </div>
                   </div>
                 </div>

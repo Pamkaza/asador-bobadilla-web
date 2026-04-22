@@ -70,14 +70,16 @@ export default function Footer() {
               Contacto
             </h4>
             <ul className="space-y-2 text-sm">
-              <li className="text-[#d4a96a]">
-                📞 +34 XXX XXX XXX
+              <li>
+                <a href="tel:+34640386139" className="text-[#d4a96a] hover:text-[#c8622a] transition-colors">
+                  📞 +34 640 38 61 39
+                </a>
               </li>
               <li className="text-[#d4a96a]">
-                📧 info@asadorbobadilla.com
+                📍 C. Río Beiro, 3
               </li>
               <li className="text-[#d4a96a]">
-                📍 Ogíjares, Granada
+                18151 Ogíjares, Granada
               </li>
             </ul>
           </div>
@@ -129,7 +131,7 @@ export default function Footer() {
 
       {/* WhatsApp Floating Button (Mobile) */}
       <a
-        href="https://wa.me/34XXXXXXXXX?text=Hola%2C%20quisiera%20reservar%20una%20mesa"
+        href="https://wa.me/34640386139?text=Hola%2C%20quisiera%20reservar%20una%20mesa%20en%20Asador%20Bobadilla"
         className="fixed bottom-6 right-6 md:hidden bg-[#25d366] hover:bg-[#1fa855] text-white p-4 rounded-full shadow-lg transition-all z-40"
         title="WhatsApp"
       >

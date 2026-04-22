@@ -35,9 +35,9 @@ export default function Reservations() {
                   <Phone className="text-[#c8622a] mt-1 flex-shrink-0" size={24} />
                   <div>
                     <p className="text-[#f5f0e8] font-semibold mb-1">Teléfono</p>
-                    <p className="text-[#d4a96a] text-lg font-bold">
-                      +34 XXX XXX XXX
-                    </p>
+                    <a href="tel:+34640386139" className="text-[#d4a96a] text-lg font-bold hover:text-[#c8622a] transition-colors">
+                      +34 640 38 61 39
+                    </a>
                     <p className="text-[#b8b8b8] text-sm mt-2">
                       Disponible en horario de apertura
                     </p>
@@ -67,12 +67,12 @@ export default function Reservations() {
             </h3>
             <div className="space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-[#d4a96a]">Lunes a Viernes</span>
-                <span className="text-[#f5f0e8] font-semibold">13:00 - 16:00 | 20:00 - 23:00</span>
+                <span className="text-[#d4a96a]">Miércoles a Domingo</span>
+                <span className="text-[#f5f0e8] font-semibold">12:30 - 17:30 | 20:00 - 24:00</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-[#d4a96a]">Sábado y Domingo</span>
-                <span className="text-[#f5f0e8] font-semibold">13:00 - 16:30 | 20:00 - 23:30</span>
+                <span className="text-[#d4a96a]">Lunes y Martes</span>
+                <span className="text-[#c8622a] font-semibold">Cerrado</span>
               </div>
             </div>
           </div>
